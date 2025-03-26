@@ -1,0 +1,19 @@
+class Whisky extends Beverage{
+   private void addcondiments(){
+        System.out.println("add some lemons in it");
+        
+    }
+   private void soda(){
+         System.out.println("add some soda in it");
+    }
+    private void serve(){
+         System.out.println("serve through waitor");
+    }
+public void templateMethod(int qty){
+pour(qty);
+    addcondiments();
+    vinegar();
+    serve();
+}
+    
+}
