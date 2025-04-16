@@ -1,0 +1,5 @@
+docker commands
+>docker pull hello-world
+>docker run hello-world
+>docker run - it ubuntu
+>
